@@ -38,6 +38,7 @@
   color: crimson;
 }
 .Container {
+  margin-left: -2rem;
   display: flex;
   height: 550px;
   padding: 25px;
@@ -75,6 +76,7 @@
 .text {
   color: white;
   padding-left: 120px;
+  margin-top: 1rem;
   margin: 45px;
 }
 .image-container {
@@ -122,11 +124,17 @@ button {
   border: 1px solid crimson;
 }
 .main-container {
+  margin-left: -5.5rem;
   display: flex;
   align-items: center;
   height: 660px;
   padding: 25px;
   background-color: rgb(17, 16, 16);
+}
+.about-para {
+  font-size: 19px;
+  font-weight: 400;
+  width: 600px;
 }
 
 .main-container .about-image-container {
@@ -145,17 +153,16 @@ button {
 .main-container .text {
   flex: 2;
   text-align: left;
-  padding-left: 130px;
-  margin-left: 10rem;
+  margin-left: 7rem;
 }
 
 .main-container h1 {
-  font-size: 35px;
+  font-size: 40px;
   color: #ffffff;
 }
 
 .main-container h2 {
-  font-size: 40px;
+  font-size: 45px;
   color: crimson;
   margin: 30px 0;
 }
@@ -184,10 +191,11 @@ button {
   align-items: center;
   padding: 20px;
   background-color: black;
-  /* height: 780px; */
+  height: 780px;
 }
 
 .main-text {
+  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,13 +205,16 @@ button {
 
 .main-text h1 {
   color: #ffffff;
+  font-size: 35px;
 }
 
 .main-text h2 {
   color: crimson;
+  font-size: 40px;
 }
 
 .skill-main {
+  margin-top: 4rem;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -354,10 +365,12 @@ button {
 
 .portfolio-text h1 {
   color: #ffffff;
+  font-size: 35px;
 }
 
 .portfolio-text h3 {
   color: crimson;
+  font-size: 40px;
 }
 
 .filter-button {
