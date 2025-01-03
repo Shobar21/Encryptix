@@ -38,7 +38,7 @@
   color: crimson;
 }
 .Container {
-  margin-left: -2rem;
+  margin-left: -3rem;
   display: flex;
   height: 550px;
   padding: 25px;
@@ -82,6 +82,11 @@
 .image-container {
   position: relative;
   overflow: hidden;
+  margin-left: -4rem;
+}
+.project-para{
+  font-size:22px;
+  font-weight:300px
 }
 
 .img {
@@ -124,7 +129,7 @@ button {
   border: 1px solid crimson;
 }
 .main-container {
-  margin-left: -5.5rem;
+  margin-left: -6.5rem;
   display: flex;
   align-items: center;
   height: 660px;
@@ -134,9 +139,11 @@ button {
 .about-para {
   font-size: 19px;
   font-weight: 400;
-  width: 600px;
+  width: 560px;
 }
-
+.about-img{
+  margin-left:-2rem;
+}
 .main-container .about-image-container {
   flex: 1;
   display: flex;
@@ -153,7 +160,7 @@ button {
 .main-container .text {
   flex: 2;
   text-align: left;
-  margin-left: 7rem;
+  margin-left: 3rem;
 }
 
 .main-container h1 {
@@ -406,6 +413,7 @@ button {
   display: flex;
   align-items: center;
   border: 2px solid #ffffff;
+  height:250px
 }
 
 .port-image {
@@ -490,9 +498,11 @@ button {
 }
 .contact-text h1 {
   color: #ffffff;
+  font-size:30px;
 }
 .contact-text h3 {
   color: crimson;
+  font-size:40px;
 }
 .contact form {
   text-align: center;
