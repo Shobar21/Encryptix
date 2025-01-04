@@ -634,7 +634,7 @@ footer p {
   }
 
   .image-container {
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
     margin-top: -15.5rem;
   }
 
@@ -722,7 +722,7 @@ footer p {
   .portfolio-container {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
   }
   .port-content h3 {
     font-size: 8px;
