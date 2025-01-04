@@ -570,6 +570,7 @@ footer p {
 @media (max-width: 768px) {
   body {
     background-color: black;
+    overflow-x: hidden;
   }
   .navbar {
     flex-direction: flex;
