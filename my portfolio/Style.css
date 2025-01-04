@@ -758,6 +758,9 @@ footer p {
   .contact form {
     max-width: 90%;
   }
+  .btnn {
+    width: 120px;
+  }
   footer p {
     font-size: 10px;
     text-align: center;
