@@ -26,7 +26,10 @@
   <body>
     <nav class="navbar">
       <h1><span>S</span>hoba<span>R</span>ohra</h1>
-      <ul>
+      <div class="menu-toggle" id="menuToggle">
+        &#9776; <!-- Menu Icon -->
+      </div>
+      <ul id="navLinks" class="hidden">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -34,6 +37,7 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    
     <section id="home" class="Container">
       <div class="text">
         <h1>Hi, I am Shoba Rohra</h1>
@@ -42,7 +46,7 @@
         <h4>work, skills, and journey in web </h4>
         <h4> development!</h4>
         
-        <div style="margin-top: 2rem;">
+        <div style="margin-top: 2rem;" class="btns">
           <a
             href="https://drive.google.com/uc?id=1E0sePQ01GtUPoSGbcIqfDZpjGmmbCwKm&export=download"
             download="Sk.rohra.pdf"
@@ -66,7 +70,7 @@
       <div class='about-img'>
         <img class="img" src="img/shoba.png" alt="pic" />
       </div>
-      <div class="text">
+      <div class="about-text">
         <h1>Let me Introduce myself</h1>
         <h2>About Me</h2>
         <p class="about-para">
@@ -170,9 +174,10 @@
             </div>
             <div class="port-content">
               <h3>Smart Buy</h3>
-              <p class='project-para'>
+              <p>
                 SmartBuy is e-commerce wesite by comparing products across multiple websites, helping users choose the best quality and price effortlessly using technologies of MERN Stack.
-                <a style="display: flex; margin-left: 8rem; margin-top: 2rem;",
+              </p>
+                <a 
                   href="https://github.com/Shobar21/FYP-Project"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -182,7 +187,6 @@
                     style="font-size: 20px; color: black"
                   ></i>
                 </a>
-              </p>
             </div>
           </div>
           <div class="port-box">
@@ -214,7 +218,6 @@
               <h3>Food Restaurant</h3>
               <p>
                 Developed a food restaurant website using Node.js, MongoDB, and React.js. Implemented features like food ordering, menu management, and customer reviews.
-                
               </p>
               <a
                 href="https://github.com/Shobar21/foodWebsite"
@@ -236,9 +239,9 @@
               <h3>Dice Game</h3>
               <p>
                 Implemented a simple dice game with score updates based on dice roll matches if dice match with user selected dice add score 2 otherwise -2, using React.js and JavaScript.
-
+              </p>
                 <a
-                style="display: flex; margin-left: 8rem; margin-top: 2rem;",
+                
                   href="https://github.com/Shobar21/Dice-Game"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -248,7 +251,6 @@
                     style="font-size: 20px; color: black"
                   ></i>
                 </a>
-              </p>
             </div>
           </div>
           <div class="port-box">
@@ -332,6 +334,14 @@
       crossorigin="anonymous"
     ></script>
     <script>
+      const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("show"); // Toggle the "show" class
+});
+
+
       document.addEventListener('DOMContentLoaded', function () {
         const skillBars = document.querySelectorAll('.skill-bar .bar')
 
