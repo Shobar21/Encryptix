@@ -608,6 +608,7 @@ footer p {
   .Container {
     flex-direction: column;
     height: 300px;
+    margin-left: 1rem;
   }
 
   .text {
