@@ -759,7 +759,8 @@ footer p {
     max-width: 90%;
   }
   .btnn {
-    width: 120px;
+    width: 130px;
+    padding: 0px;
   }
   footer p {
     font-size: 10px;
