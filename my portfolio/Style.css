@@ -675,7 +675,7 @@ footer p {
   }
 
   .cv-button {
-    width: 125px;
+    width: 140px;
     height: 35px;
     margin-top: 8px;
     line-height: 20px;
@@ -761,6 +761,7 @@ footer p {
   .btnn {
     width: 130px;
     padding: 0px;
+    border: none;
   }
   footer p {
     font-size: 10px;
